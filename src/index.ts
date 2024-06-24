@@ -1,4 +1,4 @@
-import ccxt, { type Market, type OHLCV, type Ticker } from "ccxt";
+import ccxt, { type, Market, OHLCV, Ticker } from "ccxt";
 import { buyStrategy, Step, sellStrategy } from "./strategy";
 import { updateTokenStep, getTokenHistory } from "./db";
 import { mapLimit } from "async";
